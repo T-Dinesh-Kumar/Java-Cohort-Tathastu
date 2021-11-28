@@ -1,0 +1,26 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n1 = sc.nextInt();
+		int n2 = sc.nextInt();
+		System.out.println("Select an operation from +,-,*,/")
+		char operations = sc.next.charAt(0);
+		switch(operations){
+		    case '+':
+		        operations = n1+n2;
+		        break;
+		    case '-' :
+		        operations = n1-n2;
+		    case '*':
+		        operations = n1*n2;
+		        break;
+		    case '/':
+		        operations = n1/n2;
+		    default:
+		        System.out.println("operation does not exist");
+		}
+		System.out.println(n1+"num1"+op+)
+	}
+}
